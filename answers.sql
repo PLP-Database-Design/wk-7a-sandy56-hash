@@ -36,8 +36,8 @@ order_id INT,
 foreign key(order_id) references orders(OrderID)
 );
 
-insert into product(product_id,productName,quantity,order_id)
-values 
+INSERT INTO product(product_id,productName,quantity,order_id)
+VALUES
 (1,'laptop',2,101),
 (2,'Mouse',1,101),
 (3,'Tablet',3,102),
